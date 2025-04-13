@@ -1,0 +1,65 @@
+{
+    "project":
+    [
+        {
+            "id": ["1"],
+            "name": ["TRUGO (โปรเจครายวิชา)","TRUGO (Course project)"],
+            "s_description": ["เว็บแอปพลิเคชันแผนที่ภายในมหาวิทยาลัยราชภัฎเทพสตรี","Web Application for the Internal Map of Thepsatri Rajabhat University"],
+            "description": ["TRUGO คือ เว็บแอปพลิเคชันสำหรับบอกตำแหน่งของสถานที่ต่างๆ ภายในมหาวิทยาลัยราชภัฎเทพสตรีเช่น อาคารเรียน, ร้านอาหาร, สถานที่จอดรถ และอื่นๆ หลักการทำงานคือมาร์คตำแหน่งละติจูดและลองติจูดของแต่ละสถานที่แล้วโชว์ตำแหน่งของสถานที่ๆ ผู้ใช้เลือก พร้อมโชว์ตำแหน่งของผู้ใช้บนแผนที่ เพื่อนำทางผู้ใช้ไปยังสถานที่นั้นๆ โปรเจคนี้เป็นส่วนหนึ่งของรายวิชาหัวข้อพิเศษทางเทคโนโลยีดิจิทัลซึ่งเป็นงานกลุ่มและเป็นไอเดียของเพื่อนสมาชิกในกลุ่ม ซึ่งสมาชิกในกลุ่มเก็บข้อมูลทุกอย่างรวมถึงเขียนโค๊ด โดยผมมีหน้าที่แค่ออกแบบโครงของ UX/UI ด้วย figma","TRUGO is a web application designed to show the locations of various places within Thepsatri Rajabhat University, such as academic buildings, restaurants, parking areas, and more. The core functionality involves marking the latitude and longitude of each location and displaying it on the map when selected by the user. The application also shows the user's current location to help guide them to their destination. This project is part of the Special Topics in Digital Technology course. It is a group project based on an idea from one of our team members. All data collection and coding were carried out by the group members. My main responsibility was designing the UX/UI structure using Figma."],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["Database"]
+                },
+                {
+                    "4": ["สถานะ","Status"]
+                },
+                {
+                    "5": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": ["OpenStreetMap, Leaflet.js, HTML, CSS, JavaScript"]
+                },
+                {
+                    "2": ["Firebase"]
+                },
+                {
+                    "3": ["Firestore"]
+                },
+                {
+                    "4": ["เสร็จสิ้น (ผ่านในรายวิชา)", "Completed (Passed Course Requirement)"]
+                },
+                {
+                    "5": ["แก้ไขบัคต่างๆ, ทำเป็นแอปพลิเคชันเพื่อเข้าถึง Gyroscope ของอุปกรณ์เพื่อให้ผู้ใช้เห็นทิศทางการหันของตัวเองซึ่งอาจส่งผลให้นำทางได้ดีขึ้น และในเวอร์ชันเว็บแอปพลิเคชันควรนำทางแบบเป็นเส้นทาง เนื่องจากปัจจุบันระบบนำทางแบบกระจัดโดยไม่สนสิ่งกีดขวาง","Fixing various bugs, Developing a mobile application to access the device's gyroscope, allowing users to see their facing direction more accurately, which may improve navigation. Enhancing the web application version with path-based navigation instead of the current point-to-point method, which doesn't account for real-world obstacles"]
+                }
+            ]
+        }
+
+
+
+
+
+    ],
+    "element":
+    [
+        {"cl": ["ปิด","Close"]},
+        {"lo": ["ดูโปรเจค","Go"]},
+        {"de": ["รายละเอียดเพิ่มเติม","More detail"]},
+        {"pr": ["รวมโปรเจค","Project gallery"]},
+        {"chl": ["เปลี่ยนภาษา","Change language"]},
+        {"th": ["ภาษาไทย","Thai"]},
+        {"en": ["ภาษาอังกฤษ","English"]},
+        {"mf": ["ฟีเจอร์อื่นๆ (กำลังพัฒนา)","Other Features (In Development)"]}
+
+    ]
+  
+}  

@@ -1,1 +1,103 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Project gallery</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <div id="loading-screen" class="position-fixed top-0 start-0 w-100 h-100 bg-white d-flex justify-content-center align-items-center" style="z-index: 9999;">
+    <div class="text-center">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-3 blinking">กำลังโหลดข้อมูล <br>(โหลดนานหน่อยนะเพราะทดสอบอยู่)</p>
+      </div>
+  </div>
+
+  <div id="main-content" style="display: none;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" data-textkey="pr">....</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" data-textkey="mf">....</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-textkey="chl">
+                  ....
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#" onclick="setLanguage(0)" data-textkey="th"><span class="check-icon me-2"></span>....</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#" onclick="setLanguage(1)" data-textkey="en"><span class="check-icon me-2"></span>....</a></li>
+                </ul>
+              </li>
+          </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-4">
+        <div class="row" id="project-container">
+            
+        </div>
+    </div>
+
+    <div class="modal fade" id="card5Modal" tabindex="-1" aria-labelledby="card5ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " id="card5ModalLabel">รายละเอียด</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="ปิด"></button>
+            </div>
+            <div class="modal-body">
+              <img src="ก.png" 
+              style="max-height: 300px; object-fit: cover; width: 100%; cursor: pointer;" 
+              class="img-fluid mb-3" 
+              alt="...">
+                <p>
+                  <span class="fw-bold fs-5">ตัวหนาแบบ Bootstrap</span>
+                </p>
+                <p style="text-indent: 2em; text-align: justify;">
+                </p>
+                <p style="text-align: justify;">
+                    <span class="fw-bold">ตัวหนาแบบ Bootstrap: </span>asd <br>
+                </p>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ปิด</button>
+              <a href="#" class="btn btn-primary">ดูเพิ่มเติม</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src = "js/main.js"></script>
+</body>
+</html>

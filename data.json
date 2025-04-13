@@ -1,0 +1,35 @@
+{
+    "personal_info": {
+      "name": "Mr. Panuwit Rodraung",
+      "phone": "099-086-1250",
+      "email": "tinsologuitar@gmail.com",
+      "address": "142 Moo 4, Nam Sud, Phattananikom, Lopburi 15140, Thailand"
+    },
+    "career_objective": "Motivated and detail-oriented individual with a strong background in web development and IT support. Seeking to leverage my skills in programming and system development to contribute to a dynamic and innovative team.",
+    "education": [
+      {
+        "year": "2017 – 2019",
+        "school": "Assumption Convent Lamnarai School",
+        "degree": "High School (Grade 10 – 12)"
+      },
+      {
+        "year": "2020",
+        "school": "University of Phayao"
+      },
+      {
+        "year": "2021 – 2024",
+        "school": "Thepsatri Rajabhat University",
+        "degree": "Bachelor’s Degree in Digital Technology, Computer Science"
+      }
+    ],
+    "skills": {
+      "programming_languages": ["HTML", "CSS", "PHP", "JavaScript", "Java", "C++", "SQL"],
+      "databases": ["MySQL", "SQLite", "PostgreSQL", "Firestore"],
+      "languages": {
+        "english": "Intermediate level",
+        "japanese": "Reading Romaji - Beginner level"
+      },
+      "music": "Skilled in multiple musical instruments: Guitar, Ukulele, Piano and Bass"
+    }
+  }
+  

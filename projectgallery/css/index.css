@@ -1,0 +1,25 @@
+body{
+    background-color: #dbf2d5;
+}
+
+.card {
+    max-width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.card-body {
+    height: 100%;
+    user-select: none;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 0.3;
+    }
+  }
+  
+.blinking {
+    animation: blink 1.5s infinite;
+}
+  
