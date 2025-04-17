@@ -55,15 +55,16 @@ function renderProjects(data, language) {
     const projectname = project.name[language] || project.name[0];
     const projects_description = project.s_description[language] || project.s_description[0];
     const projectdescription = project.description[language] || project.description[0];
+    const url = project.url[language] || project.url[0];
 
     const card = document.createElement("div");
     card.className = "col-12 col-md-4 mb-4";
     card.innerHTML = `
       <div class="card" data-bs-toggle="modal" data-bs-target="#modal-${projectid}" style="cursor: pointer;">
-          <img src="img/${projectid}.png" class="card-img-top" alt="${projectname}">
+          <img src="img/${projectid}.png" class="card-img-top" alt="${projectname}" style="height: 200px; object-fit: cover;">
           <div class="card-body" style="padding: 0.5rem 1rem 0.5rem 1rem;">
               <h5 class="card-title">${projectname}</h5>
-              <p class="card-text">${projects_description}</p>
+              <p class="card-text mb-1">${projects_description}</p>
           </div>
       </div>
     `;
@@ -95,14 +96,14 @@ function renderProjects(data, language) {
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="ปิด"></button>
           </div>
           <div class="modal-body">
-            <img src="img/${projectid}.png" style="max-height: 300px; object-fit: cover; width: 100%; cursor: pointer;" class="img-fluid mb-3" alt="${projectname}">
+            <img src="img/${projectid}.png" style="max-height: 100%; object-fit: cover; width: 100%; cursor: ;" class="img-fluid mb-3" alt="${projectname}">
             <p><span class="fw-bold fs-5">${projectname}</span></p>
-            <p style="text-indent: 2em; text-align: justify;">${projectdescription}</p>
-            <p style="text-align: justify;">${subtopicsHTML}</p>
+            <p style="text-indent: 2em; text-align: left;">${projectdescription}</p>
+            <p style="text-align: left;">${subtopicsHTML}</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-textkey="cl">....</button>
-            <a href="#" class="btn btn-primary" data-textkey="lo">....</a>
+            <a href="${url}" class="btn btn-primary" data-textkey="lo">....</a>
           </div>
         </div>
       </div>
@@ -126,9 +127,17 @@ document.addEventListener("DOMContentLoaded", function () {
       highlightActiveLanguage();
 
       setTimeout(() => {
-        document.getElementById("loading-screen").remove();
         document.getElementById("main-content").style.display = "block";
-      }, 100);
+        document.querySelectorAll('a[data-textkey="lo"]').forEach(el => {
+          if (el.getAttribute("href") === "#") {
+            el.remove();
+          }
+        });
+        
+      }, 1000);
+      setTimeout(() => {
+        document.getElementById("loading-screen").remove();
+      }, 1000);
     })
     .catch(error => {
       console.error(error);

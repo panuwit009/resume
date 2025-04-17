@@ -3,8 +3,9 @@
     [
         {
             "id": ["1"],
+            "url": ["https://map-tru-go.web.app"],
             "name": ["TRUGO (โปรเจครายวิชา)","TRUGO (Course project)"],
-            "s_description": ["เว็บแอปพลิเคชันแผนที่ภายในมหาวิทยาลัยราชภัฎเทพสตรี","Web Application for the Internal Map of Thepsatri Rajabhat University"],
+            "s_description": ["เว็บแอปพลิเคชันแผนที่ภายในมหาวิทยาลัย","Web App for the Internal Map of University."],
             "description": ["TRUGO คือ เว็บแอปพลิเคชันสำหรับบอกตำแหน่งของสถานที่ต่างๆ ภายในมหาวิทยาลัยราชภัฎเทพสตรีเช่น อาคารเรียน, ร้านอาหาร, สถานที่จอดรถ และอื่นๆ หลักการทำงานคือมาร์คตำแหน่งละติจูดและลองติจูดของแต่ละสถานที่แล้วโชว์ตำแหน่งของสถานที่ๆ ผู้ใช้เลือก พร้อมโชว์ตำแหน่งของผู้ใช้บนแผนที่ เพื่อนำทางผู้ใช้ไปยังสถานที่นั้นๆ โปรเจคนี้เป็นส่วนหนึ่งของรายวิชาหัวข้อพิเศษทางเทคโนโลยีดิจิทัลซึ่งเป็นงานกลุ่มและเป็นไอเดียของเพื่อนสมาชิกในกลุ่ม ซึ่งสมาชิกในกลุ่มเก็บข้อมูลทุกอย่างรวมถึงเขียนโค๊ด โดยผมมีหน้าที่แค่ออกแบบโครงของ UX/UI ด้วย figma","TRUGO is a web application designed to show the locations of various places within Thepsatri Rajabhat University, such as academic buildings, restaurants, parking areas, and more. The core functionality involves marking the latitude and longitude of each location and displaying it on the map when selected by the user. The application also shows the user's current location to help guide them to their destination. This project is part of the Special Topics in Digital Technology course. It is a group project based on an idea from one of our team members. All data collection and coding were carried out by the group members. My main responsibility was designing the UX/UI structure using Figma."],
             "subtopic":
             [
@@ -39,14 +40,292 @@
                     "4": ["เสร็จสิ้น (ผ่านในรายวิชา)", "Completed (Passed Course Requirement)"]
                 },
                 {
-                    "5": ["แก้ไขบัคต่างๆ, ทำเป็นแอปพลิเคชันเพื่อเข้าถึง Gyroscope ของอุปกรณ์เพื่อให้ผู้ใช้เห็นทิศทางการหันของตัวเองซึ่งอาจส่งผลให้นำทางได้ดีขึ้น และในเวอร์ชันเว็บแอปพลิเคชันควรนำทางแบบเป็นเส้นทาง เนื่องจากปัจจุบันระบบนำทางแบบกระจัดโดยไม่สนสิ่งกีดขวาง","Fixing various bugs, Developing a mobile application to access the device's gyroscope, allowing users to see their facing direction more accurately, which may improve navigation. Enhancing the web application version with path-based navigation instead of the current point-to-point method, which doesn't account for real-world obstacles"]
+                    "5": ["1. แก้ไขบัคต่างๆ 2. ทำเป็นแอปพลิเคชันเพื่อเข้าถึง Gyroscope ของอุปกรณ์เพื่อให้ผู้ใช้เห็นทิศทางการหันของตัวเองซึ่งอาจส่งผลให้นำทางได้ดีขึ้น 3. ในเวอร์ชันเว็บแอปพลิเคชันควรนำทางแบบเป็นเส้นทาง เนื่องจากปัจจุบันระบบนำทางแบบกระจัดโดยไม่สนสิ่งกีดขวาง","1. Fixing various bugs 2. Developing a mobile application to access the device's gyroscope, allowing users to see their facing direction more accurately, which may improve navigation 3. Enhancing the web application version with path-based navigation instead of the current point-to-point method, which doesn't account for real-world obstacles"]
+                }
+            ]
+        },
+        {
+            "id": ["2"],
+            "url": ["http://trutsit.atwebpages.com"],
+            "name": ["TRU T-Sit (โปรเจคจบ)","TRU T-sit (Graduate project)"],
+            "s_description": ["เว็บสำหรับจัดการข้อมูลปริญญานิพนธ์"," A website for managing senior theses."],
+            "description": ["TRU T-sit ย่อมาจาก ระบบสารสนเทศสำหรับการจัดการข้อมูลปริญญานิพนธ์ กรณีศึกษา คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยราชภัฏเทพสตรี เป็นโปรเจคที่คิดขึ้นมาโดยอาจารย์ที่ปรึกษาโปรเจค โดยหลักการของเว็บคือการใช้ภาษา PHP ในการเพิ่ม, ลบ, แก้ไข และค้นหาข้อมูลปริญญานิพนธ์ที่ได้มาจากระเบียนของทางคณะเทคโนโลยีสารสนเทศ ผู้ใช้สามารถดูไฟล์ pdf ของปริญญานิพนธ์แต่ละเล่มได้ถ้าปริญญานิพนธ์เล่มนั้นมีไฟล์อยู่ในระบบและผู้ดูแลระบบเปิดให้ดาวน์โหลดไฟล์นั้น ซึ่งมีระบบหลังบ้านสำหรับจัดการข้อมูลปริญญานิพนธ์","TRU T-sit stands for Thepsatri Rajabhat University Senior Thesis Searching System for the Faculty of Information Technology. It is a project initiated by the thesis advisor. The core functionality of the website is built using PHP to allow adding, deleting, editing, and searching thesis data retrieved from the records of the Faculty of Information Technology. Users can view the PDF files of individual theses if the file is available in the system and the administrator has enabled access to download it. The system also includes a backend for managing thesis information."],
+            "subtopic":
+            [
+                { "0": ["Username: admin | Password: 123"]},
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["Database"]
+                },
+                {
+                    "4": ["สถานะ","Status"]
+                },
+                {
+                    "5": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {"0": ["สำหรับการเข้าสู่ระบบ ผู้ใช้สามารถจัดการข้อมูลได้ทั้งหมดเพราะในหน้าเว็บที่ deploy เป็นฐานข้อมูลสำรอง","For login, User can manage all of data because in this web is just backup database."]},
+                {
+                    "1": ["PHPMailer, PHP, HTML, CSS, JavaScript"]
+                },
+                {
+                    "2": ["Awardspace"]
+                },
+                {
+                    "3": ["MySQL, PHPMyadmin"]
+                },
+                {
+                    "4": ["เสร็จสิ้น (ผ่านตามขอบเขต)", "Completed (Functional Scope Met)"]
+                },
+                {
+                    "5": ["1. การนำระบบไปติดตั้งบนเซิร์ฟเวอร์ที่สามารถควบคุมทรัพยากรได้มากขึ้น เนื่องจากการ deploy บน Awardspace ในปัจจุบันมีข้อจำกัดบางอย่าง เช่น ไม่สามารถใช้งาน PHPMailer สำหรับระบบยืนยันบัญชีผ่านอีเมลได้ 2. การออกแบบ UX/UI ให้เหมาะสมกับการใช้งานบนมือถือและคอมพิวเตอร์ แม้ว่าปัจจุบันระบบจะสามารถใช้งานได้บนมือถือ แต่ยังดูไม่สวยงามและใช้งานยาก 3. การปรับปรุงประสิทธิภาพของฝั่ง Backend (Server-side) เช่น ลดการทำงานซ้ำซ้อน ปรับปรุงให้โหลดข้อมูลเร็วขึ้น ใช้การเก็บ Cache หรือ Cookie เพื่อไม่ให้ต้องส่ง request ซ้ำหลายครั้ง ช่วยประหยัดทรัพยากรของเซิร์ฟเวอร์ 4. การเพิ่มระบบยืนยันตัวตน เนื่องจากระบบมีรายงานการใช้งานอยู่แล้วว่าใครบ้างที่ดูหรือดาวน์โหลดปริญญานิพนธ์ การเพิ่มขั้นตอนยืนยันตัวตนจะช่วยเพิ่มความปลอดภัยและตรวจสอบการเข้าถึงข้อมูลได้ดียิ่งขึ้น","1. Deploying the system on a server with greater control over resources Currently, the system is hosted on Awardspace, which has certain limitations — for example, PHPMailer cannot be used to send email verifications for user account activation. 2. Improving UX/UI design for both mobile and desktop platforms Although the current version is usable on mobile devices, the interface still lacks visual appeal and ease of use. On desktops, some pages such as the data management page are also difficult to navigate and could benefit from a more user-friendly design. 3. Optimizing backend performance (server-side) This includes reducing redundant processes, improving response times, and utilizing caching or cookies to minimize repeated requests to the server, thereby saving server resources. 4. Adding user authentication mechanisms Since the system already tracks which user viewed or downloaded each thesis, adding authentication will improve data access control and enhance overall security."]
+                }
+            ]
+        },
+        {
+            "id": ["3"],
+            "url": ["https://chatbypnw.web.app"],
+            "name": ["Chatbypnw (โปรเจคส่วนตัว)","Chatbypnw (Personal project)"],
+            "s_description": ["เว็บแอปพลิเคชันสำหรับแชทคุย"," A web app for chatting."],
+            "description": ["Chatbypnw เป็นโปรเจคที่ทำขึ้นเพื่อการเรียนรู้การใช้ฐานข้อมูล Firestore มีเป้าหมายแค่ให้สามารถพิมพ์แชทคุยกันได้ปกติ","Chatbypnw is a project created for the purpose of learning how to use Firestore as a database. The main goal is simply to enable users to send and receive chat messages normally."],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["Database"]
+                },
+                {
+                    "4": ["สถานะ","Status"]
+                },
+                {
+                    "5": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": ["HTML, CSS, JavaScript"]
+                },
+                {
+                    "2": ["Firebase"]
+                },
+                {
+                    "3": ["Firestore"]
+                },
+                {
+                    "4": ["กำลังพัฒนา", "In development."]
+                },
+                {
+                    "5": ["ออกแบบหน้า UI ให้เรียบร้อย และOptimize โค๊ดด้านการ Query ข้อมูลจากฐานข้อมูลให้ดี","Design the UI properly and optimize the code for querying data from the database."]
+                }
+            ]
+        },
+        {
+            "id": ["4"],
+            "url": ["http://knhrepairsystem.atwebpages.com"],
+            "name": ["ระบบแจ้งซ่อม (โปรเจคฝึกงาน)","RepairLog (Internship project)"],
+            "s_description": ["เว็บสำหรับจัดการรายการแจ้งซ่อม","Web for managing repair requests."],
+            "description": ["ระบบแจ้งซ่อมครุภัณฑ์ เป็นโปรเจคที่ได้รับมอบหมายให้ทำโดยสถานที่ฝึกงาน โดยในสถานที่ฝึกงานจะมีการแปะสติกเกอร์ Qr code บนครุภัณฑ์ต่างๆ เพื่อให้บุคลากรสแกนเพื่อแจ้งซ่อมเมื่อครุภัณฑ์นั้นๆ มีปัญหา ด้วยการพิมพ์รายละเอียดอาการเบื้องต้นแล้วกดส่ง ข้อมูลต่างๆ จะถูกส่งมาที่ระบบแจ้งซ่อมครุภัณฑ์ โดย Qr code ที่สแกนนั้นจะมีการกรอกแบบฟอร์มแบบอัตโนมัติจากระบบทะเบียนครุภัณฑ์ หลังจากได้รับข้อมูลแล้วเจ้าหน้าที่หรือช่างที่เข้ามาดูรายการแจ้งซ่อมในระบบแจ้งซ่อมครุภัณฑ์จะสามารถพิจารณาได้ว่าควรซ่อมที่ไหนก่อน เนื่องจากสถานที่ค่อนข้างใหญ่ การวางแผนก่อนเดินไปซ่อมทำให้เดินน้อยลง และเตรียมอุปกรณ์ก่อนไปซ่อมได้ทีเดียว จากปกติจะแจ้งซ่อมด้วยการโทรเข้าที่โทรศัพท์ซึ่งต้องแจ้งรายละเอียดทั้งหมดว่าอุปกรณ์ชิ้นนั้นอยู่ที่ไหน อุปกรณ์คืออะไร อาการเป็นยังไง ระบบนี้ก็จะช่วยลดขั้นตอนการแจ้งซ่อมและช่วยให้ประหยัดเวลา ทำให้เจ้าหน้าที่แก้ไขปัญหาได้มากขึ้นในเวลาที่น้อยลง ในโปรเจคนี้ ผมมีหน้าที่พัฒนาเฉพาะในส่วนของ Backend ส่วนการพัฒนา Frontend เป็นหน้าที่ของเพื่อนร่วมทีม","The Equipment Repair Request System is a project assigned by the internship site. At the organization, QR code stickers are placed on various equipment so that staff can scan them to report a repair issue when a problem occurs. By typing a brief description of the issue and clicking submit, the information is sent to the repair system. The scanned QR code automatically fills in form data using the equipment registration database. Once the system receives the information, staff or technicians reviewing the repair requests can decide which locations to prioritize. Since the area is quite large, planning ahead helps reduce unnecessary walking and allows them to prepare the necessary tools in one go. Previously, repair requests were made via phone calls, requiring the caller to explain where the item is, what it is, and what the issue is. This system streamlines the repair request process and saves time, enabling staff to handle more issues in less time. For this project, I was responsible for developing only the backend, while the frontend was handled by a teammate."],
+            "subtopic":
+            [
+                { "0": ["Username: admin | Password: admin"]},
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["Database"]
+                },
+                {
+                    "4": ["สถานะ","Status"]
+                },
+                {
+                    "5": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {"0": ["สำหรับการเข้าสู่ระบบ ผู้ใช้สามารถจัดการข้อมูลได้ทั้งหมดเพราะในหน้าเว็บที่ deploy เป็นข้อมูลจำลอง","For login, User can manage all of data because in this web is just mock-up data."]},
+                {
+                    "1": ["AdminLTE3, Bootstrap, Tailwind, PHP, HTML, CSS, JavaScript"]
+                },
+                {
+                    "2": ["Awardspace"]
+                },
+                {
+                    "3": ["MySQL, PHPMyadmin"]
+                },
+                {
+                    "4": ["เสร็จสิ้น (ผ่านตามขอบเขต)", "Completed (Functional Scope Met)"]
+                },
+                {
+                    "5": ["ควรมีฟังก์ชันเกี่ยวกับการแจ้งซ่อมที่เร่งด่วน เนื่องจากบางครั้งอุปกรณ์ที่แจ้งซ่อมกำลังใช้งานอยู่ขณะที่เจ้าหน้าที่กำลังทำงาน","The system should include a function for urgent repair requests, since some equipment may be in use during critical operations when a repair is needed."]
+                }
+            ]
+        },
+        {
+            "id": ["5"],
+            "url": ["#"],
+            "name": ["เครื่องวัดอุณหภูมิ (โปรเจคฝึกงาน)","Temp Monitor (Internship project)"],
+            "s_description": ["เครื่องวัดอุณหภูมิและความชื้น","A temperature and humidity monitoring."],
+            "description": ["เครื่องวัดอุณหภูมิและความชื้นของห้องเซิร์ฟเวอร์พร้อมระบบส่งแจ้งเตือนผ่านไลน์แชทบอท โดยแจ้งเตือนตามเวลาที่ตั้งไว้ดังนี้ 06:00, 12:00, 18:00, 00:00 รวมแล้ววันละ 4 ครั้ง เนื่องจากการส่งแจ้งเตือนถูกจำกัดไว้ที่ 300 ครั้งต่อเดือน หากเกิน 300 ครั้งจะมีค่าใช้จ่าย เนื่องจากเครื่องนี้เป็นเพียงตัวสำรองจึงใช้แบบฟรีไปก่อน ผมมีหน้าที่เขียนโค๊ดให้กับบอร์ด ส่วนตัวเครื่องเพื่อนเป็นคนประกอบเองทั้งหมด","Temperature and Humidity Monitoring Device for Server Room (Team project) A device that monitors temperature and humidity in a server room and sends alerts via LINE chatbot at scheduled times (06:00, 12:00, 18:00, and 00:00 — 4 times a day). The system is limited to 300 messages per month under the free plan, which is suitable since this device serves as a backup. I was responsible for writing the code for the board, while a teammate assembled the hardware."],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["ติดตั้ง","Install"]
+                },
+                {
+                    "3": ["สถานะ","Status"]
+                },
+                {
+                    "4": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": ["C++ (Arduino IDE), Beeceptor (Webhook)"]
+                },
+                {
+                    "2": ["ห้องเซิร์ฟเวอร์","Server room"]
+                },
+                {
+                    "3": ["เสร็จสิ้น", "Completed"]
+                },
+                {
+                    "4": ["ในแง่ของการใช้งานจริง ผู้ใช้ต้องการให้แจ้งเตือนแค่ตอนที่อุณหภูมิหรือความชื้นผิดปกติ เพราะห้องเซิร์ฟเวอร์ไม่ควรร้อนเกินไป ดังนั้นควรแก้ไขโค๊ดให้เน้นไปที่การแจ้งเตือนเมื่ออุณหภูมิหรือความชื้นผิดปกติ ส่วนฮาร์ดแวร์ผมยังไม่มีความรู้ด้านนี้จึงบอกไม่ได้ว่าควรพัฒนาอย่างไรต่อ","In terms of real-world usage, the user only wants to receive alerts when the temperature or humidity is abnormal, as the server room should not be too hot. Therefore, the code should be revised to focus on sending alerts only when abnormal conditions are detected. As for the hardware, I don't have much knowledge in that area, so I'm unable to suggest how it should be further developed."]
+                }
+            ]
+        },
+        {
+            "id": ["6"],
+            "url": ["https://bebartenderwithyourfriends.web.app"],
+            "name": ["เกม (โปรเจคส่วนตัว)","Game (Personal project)"],
+            "s_description": ["สร้างเกมด้วย Javascript","Javascript game."],
+            "description": ["เป็นโปรเจคที่สร้างขึ้นโดยอิงจากเกม Family style บนมือถือ เนื่องจากเกมนี้มีบัคเยอะจนเล่นไม่ได้ ผมจึงคิดจะทำขึ้นมาไว้เล่นกับเพื่อนเพราะความอยากเล่น","This project was inspired by the mobile game Family Style. Since the original game had too many bugs and became unplayable, I decided to create my own version to play with friends out of a desire to enjoy the game."],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["Database"]
+                },
+                {
+                    "4": ["สถานะ","Status"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": ["HTML, CSS, JavaScript"]
+                },
+                {
+                    "2": ["Firebase"]
+                },
+                {
+                    "3": ["Firestore"]
+                },
+                {
+                    "4": ["กำลังพัฒนา", "In development."]
+                }
+            ]
+        },
+        {
+            "id": ["7"],
+            "url": ["https://panuwit009.github.io/playground"],
+            "name": ["Playground"],
+            "s_description": ["เรียนรู้การใช้ React","Learn how to use React"],
+            "description": ["ศึกษาวิธีการใช้ React.js โดยเขียนตามใจตัวเอง 100% ร่วมกับเพื่อนคนอื่น","Explored React.js through 100% self-directed development, in collaboration with friends."],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["สถานะ","Status"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": ["Github, React, HTML, CSS, JavaScript"]
+                },
+                {
+                    "2": ["Github pages"]
+                },
+                {
+                    "3": ["กำลังศึกษา", "Learning"]
+                }
+            ]
+        },
+        {
+            "id": ["8"],
+            "url": ["#"],
+            "name": ["MiniBlog API"],
+            "s_description": ["Backend 100%"],
+            "description": ["",""],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Deploy"]
+                },
+                {
+                    "3": ["Database"]
+                },
+                {
+                    "4": ["สถานะ","Status"]
+                },
+                {
+                    "5": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": [""]
+                },
+                {
+                    "2": [""]
+                },
+                {
+                    "3": [""]
+                },
+                {
+                    "4": [""]
+                },
+                {
+                    "5": [""]
                 }
             ]
         }
-
-
-
-
+        
 
     ],
     "element":
