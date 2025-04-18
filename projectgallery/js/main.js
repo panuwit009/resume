@@ -15,6 +15,12 @@ function setLanguage(lang) {
 
 function updateStaticTexts(language, elements) {
   const textElements = document.querySelectorAll("[data-textkey]");
+
+  document.querySelectorAll('a[data-textkey="lo"]').forEach(el => {
+    if (el.getAttribute("href") === "#") {
+      el.remove();
+      }
+  });
   
   textElements.forEach(el => {
     const key = el.getAttribute("data-textkey");
