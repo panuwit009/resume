@@ -11,10 +11,23 @@ function setLanguage(lang) {
   renderProjects(window._cachedData, language);
   updateStaticTexts(language, window._cachedElements);
   highlightActiveLanguage();
+
+  document.querySelectorAll('a[data-textkey="lo"]').forEach(el => {
+    if (el.getAttribute("href") === "#") {
+      el.remove();
+    }
+  });
+  
 }
 
 function updateStaticTexts(language, elements) {
   const textElements = document.querySelectorAll("[data-textkey]");
+
+  document.querySelectorAll('a[data-textkey="lo"]').forEach(el => {
+    if (el.getAttribute("href") === "#") {
+      el.remove();
+    }
+  });
   
   textElements.forEach(el => {
     const key = el.getAttribute("data-textkey");
@@ -133,6 +146,27 @@ document.addEventListener("DOMContentLoaded", function () {
             el.remove();
           }
         });
+
+        window.addEventListener("popstate", () => {
+          const openedModal = document.querySelector(".modal.show");
+          if (openedModal) {
+            const modalInstance = bootstrap.Modal.getInstance(openedModal);
+            if (modalInstance) {
+              modalInstance.hide();
+            }
+          }
+        });
+
+        document.body.addEventListener("shown.bs.modal", () => {
+          history.pushState({ modalOpen: true }, '');
+        });
+
+        document.body.addEventListener("hidden.bs.modal", () => {
+          if (history.state && history.state.modalOpen) {
+            history.back();
+          }
+        });
+
         
       }, 1000);
       setTimeout(() => {
