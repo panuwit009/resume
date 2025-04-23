@@ -49,7 +49,7 @@
             "url": ["http://trutsit.atwebpages.com"],
             "name": ["TRU T-Sit (โปรเจคจบ)","TRU T-sit (Graduate project)"],
             "s_description": ["เว็บสำหรับจัดการข้อมูลปริญญานิพนธ์"," A website for managing senior theses."],
-            "description": ["TRU T-sit ย่อมาจาก ระบบสารสนเทศสำหรับการจัดการข้อมูลปริญญานิพนธ์ กรณีศึกษา คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยราชภัฏเทพสตรี เป็นโปรเจคที่คิดขึ้นมาโดยอาจารย์ที่ปรึกษาโปรเจค โดยหลักการของเว็บคือการใช้ภาษา PHP ในการเพิ่ม, ลบ, แก้ไข และค้นหาข้อมูลปริญญานิพนธ์ที่ได้มาจากระเบียนของทางคณะเทคโนโลยีสารสนเทศ ผู้ใช้สามารถดูไฟล์ pdf ของปริญญานิพนธ์แต่ละเล่มได้ถ้าปริญญานิพนธ์เล่มนั้นมีไฟล์อยู่ในระบบและผู้ดูแลระบบเปิดให้ดาวน์โหลดไฟล์นั้น ซึ่งมีระบบหลังบ้านสำหรับจัดการข้อมูลปริญญานิพนธ์","TRU T-sit stands for Thepsatri Rajabhat University Senior Thesis Searching System for the Faculty of Information Technology. It is a project initiated by the thesis advisor. The core functionality of the website is built using PHP to allow adding, deleting, editing, and searching thesis data retrieved from the records of the Faculty of Information Technology. Users can view the PDF files of individual theses if the file is available in the system and the administrator has enabled access to download it. The system also includes a backend for managing thesis information."],
+            "description": ["ระบบสารสนเทศสำหรับการจัดการข้อมูลปริญญานิพนธ์ กรณีศึกษา คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยราชภัฏเทพสตรี เป็นโปรเจคที่คิดขึ้นมาโดยอาจารย์ที่ปรึกษาโปรเจค โดยหลักการของเว็บคือการใช้ภาษา PHP ในการเพิ่ม, ลบ, แก้ไข และค้นหาข้อมูลปริญญานิพนธ์ที่ได้มาจากระเบียนของทางคณะเทคโนโลยีสารสนเทศ ผู้ใช้สามารถดูไฟล์ pdf ของปริญญานิพนธ์แต่ละเล่มได้ถ้าปริญญานิพนธ์เล่มนั้นมีไฟล์อยู่ในระบบและผู้ดูแลระบบเปิดให้ดาวน์โหลดไฟล์นั้น ซึ่งมีระบบหลังบ้านสำหรับจัดการข้อมูลปริญญานิพนธ์","TRU T-sit stands for Thepsatri Rajabhat University Senior Thesis Searching System for the Faculty of Information Technology. It is a project initiated by the thesis advisor. The core functionality of the website is built using PHP to allow adding, deleting, editing, and searching thesis data retrieved from the records of the Faculty of Information Technology. Users can view the PDF files of individual theses if the file is available in the system and the administrator has enabled access to download it. The system also includes a backend for managing thesis information."],
             "subtopic":
             [
                 { "0": ["Username: admin | Password: 123"]},
@@ -255,7 +255,7 @@
             "id": ["7"],
             "url": ["https://panuwit009.github.io/playground"],
             "name": ["Playground"],
-            "s_description": ["เรียนรู้การใช้ React","Learn how to use React"],
+            "s_description": ["เรียนรู้การใช้ React","Learn how to use React."],
             "description": ["ศึกษาวิธีการใช้ React.js โดยเขียนตามใจตัวเอง 100% ร่วมกับเพื่อนคนอื่น","Explored React.js through 100% self-directed development, in collaboration with friends."],
             "subtopic":
             [
@@ -285,9 +285,9 @@
         {
             "id": ["8"],
             "url": ["#"],
-            "name": ["MiniBlog API"],
-            "s_description": ["Backend 100%"],
-            "description": ["",""],
+            "name": ["10 วันกับ Typescript","10 Days with Typescript"],
+            "s_description": ["MiniBlog API (Backend 100%)"],
+            "description": ["เป็นโปรเจคเล็กๆ ที่ทำเพื่อเรียนรู้การใช้งานเครื่องมือหรือ framework ต่างๆ เพื่อนำไปสมัครงาน","This is a small project I developed to gain hands-on experience with different tools and frameworks, aiming to include it in my job applications"],
             "subtopic":
             [
                 {
@@ -309,13 +309,13 @@
             "subtopiccontent":
             [
                 {
-                    "1": [""]
+                    "1": ["TypeScript, Node.js, Bun"]
                 },
                 {
                     "2": [""]
                 },
                 {
-                    "3": [""]
+                    "3": ["PostgreSQL"]
                 },
                 {
                     "4": [""]
