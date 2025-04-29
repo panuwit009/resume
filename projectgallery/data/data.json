@@ -284,7 +284,7 @@
         },
         {
             "id": ["8"],
-            "url": ["#"],
+            "url": ["https://github.com/panuwit009/miniblog-api"],
             "name": ["10 วันกับ Typescript","10 Days with Typescript"],
             "s_description": ["MiniBlog API (Backend 100%)"],
             "description": ["เป็นโปรเจคเล็กๆ ที่ทำเพื่อเรียนรู้การใช้งานเครื่องมือหรือ framework ต่างๆ เพื่อนำไปสมัครงาน","This is a small project I developed to gain hands-on experience with different tools and frameworks, aiming to include it in my job applications"],
@@ -294,34 +294,16 @@
                     "1": ["พัฒนาโดย","Built with"]
                 },
                 {
-                    "2": ["Deploy"]
-                },
-                {
-                    "3": ["Database"]
-                },
-                {
-                    "4": ["สถานะ","Status"]
-                },
-                {
-                    "5": ["แนวทางการพัฒนาต่อ", "Future Development Plan"]
+                    "2": ["Database"]
                 }
             ],
             "subtopiccontent":
             [
                 {
-                    "1": ["TypeScript, Node.js, Bun"]
+                    "1": ["TypeScript, Node.js, Express.js, Jest, Supertest, Docker"]
                 },
                 {
-                    "2": [""]
-                },
-                {
-                    "3": ["PostgreSQL"]
-                },
-                {
-                    "4": [""]
-                },
-                {
-                    "5": [""]
+                    "2": ["PostgreSQL"]
                 }
             ]
         }
