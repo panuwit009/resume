@@ -306,6 +306,37 @@
                     "2": ["PostgreSQL"]
                 }
             ]
+        },
+        {
+            "id": ["9"],
+            "url": ["https://github.com/panuwit009/Nextorder"],
+            "name": ["Nextorder"],
+            "s_description": ["ระบบสั่งอาหาร","Food order"],
+            "description": ["ระบบสั่งอาหารทำขึ้นมาเล่นๆเพราะอยากศึกษาการ deploy ในระดับ production จริงๆ และศึกษาการทำระบบชำระเงิน","The food ordering system was created just for fun because I wanted to learn about deploying in a real production environment and study payment processing."],
+            "subtopic":
+            [
+                {
+                    "1": ["พัฒนาโดย","Built with"]
+                },
+                {
+                    "2": ["Database"]
+                },
+                {
+                    "3": ["สถานะ","Status"]
+                }
+            ],
+            "subtopiccontent":
+            [
+                {
+                    "1": ["Next.js, Supabase"]
+                },
+                {
+                    "2": ["Supabase(PostgreSQL)"]
+                },
+                {
+                    "3": ["กำลังศึกษา", "Learning"]
+                }
+            ]
         }
         
 
