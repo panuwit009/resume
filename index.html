@@ -2,39 +2,46 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
-    <style>
-        body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: #007acc;
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        h6 {
-            font-size: 1em;
-            color: #666;
-        }
-    </style>
+    <title>Panuwit Resume</title>
+    <link rel="icon" type="image/jpeg" href="./img/me.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <a href="./projectgallery">รวมโปรเจค</a>
-    <h6>กำลังพัฒนา</h6>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body class="bg-sky-50">
+    <div class="grid grid-cols-1 lg:grid-cols-12 min-h-dvh">
+        <div class="bg-zinc-200 hidden lg:block lg:col-span-3">asd</div>
+        <div class="bg-lime-100 col-span-1 lg:col-span-6 text-center">
+            <!-- main layout ความยาว = child element -->
+            <div class="bg-red-100 grid grid-cols-11">
+                <!-- main layout ซ้าย -->
+                <div class="bg-white col-span-4 h-50 flex flex-col justify-start items-center">
+                    <!-- <div class="w-0 h-0 
+                    border-l-[50px] border-l-transparent
+                    border-t-[75px] border-t-sky-300
+                    border-r-[50px] border-r-transparent">
+                    </div> this is triangle shape ไว้ทำที่หลัง-->
+                    <img src="./img/me.jpg" alt="My picture" width="50" height="60" class="mt-4">
+                    <p class="mt-4 text-lg">Panuwit Rodraung (Tin)</p>
+                    <div class="self-start ml-4">
+                        <p class="font-semibold">Contact</p>
+                        <hr class="border-t-1 border-sky-400 my-0">
+                        <p>0990861250</p>
+                    </div>
+                    
+                </div>
+                <!-- main layout ขวา -->
+                <div class="bg-gray-100 col-span-7 h-100">jkl</div>
+            </div>
+            <div>Created by HTML + TailwindCSS</div>
+        </div>
+        <div class="bg-zinc-200 hidden lg:block lg:col-span-3">l;'</div>
+    </div>
+    <!-- <a href="./projectgallery">รวมโปรเจค</a>
+    <h6>กำลังพัฒนา</h6> -->
 </body>
 </html>
